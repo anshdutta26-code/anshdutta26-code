@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- LIVE PORTRAIT — the image reveals line-by-line every time the profile loads -->
-<img src="assets/portrait-live.svg" width="320" alt="Ansh Dutta live-render profile portrait">
+<!-- LIVE PORTRAIT — the image reveals like a generated render every time the profile loads -->
+<img src="assets/portrait-render.svg" width="320" alt="Ansh Dutta live-render profile portrait">
 
 <br>
 
