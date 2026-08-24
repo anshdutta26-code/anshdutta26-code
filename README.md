@@ -1,141 +1,119 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:07111f,45:0B1F3A,100:2F80ED&height=170&section=header&text=ANSH%20DUTTA&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Growth%20Marketing%20%C2%B7%20Brand%20Strategy%20%C2%B7%20GTM%20%C2%B7%20Analytics%20%C2%B7%20Automation&descAlignY=56&descSize=17" alt="Ansh Dutta profile banner" />
+<!-- LIVE PORTRAIT — the image reveals line-by-line every time the profile loads -->
+<img src="assets/portrait-live.svg" width="320" alt="Ansh Dutta live-render profile portrait">
 
-<!-- Hero portrait: same image used in the hero section of anshdutta.com -->
-<img src="https://raw.githubusercontent.com/anshdutta26-code/anshdutta26-code.github.io/website-build/assets/images/optimized/home-hero-1122.webp" width="330" alt="Ansh Dutta" />
+<br>
 
-<br/><br/>
+<!-- ANIMATED NAME / POSITIONING -->
+<a href="https://github.com/anshdutta26-code">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2600&pause=850&color=2F80ED&center=true&vCenter=true&width=760&lines=Ansh+Dutta;Growth+Marketing+%26+Brand+Strategy;GTM+%7C+Performance+%7C+E-commerce;Analytics+%7C+Automation+%7C+Operations;build+%E2%86%92+measure+%E2%86%92+improve+%E2%86%92+scale" alt="Ansh Dutta professional focus">
+</a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=24&duration=2600&pause=850&color=2F80ED&center=true&vCenter=true&width=900&lines=Growth+Marketing+%26+Brand+Strategy;Performance+Marketing+%7C+GTM+%7C+E-commerce;Marketing+Analytics+%7C+Automation+%7C+Operations;Building+systems+that+turn+data+into+execution" alt="Professional focus" />
+<br>
 
-<br/>
+<a href="https://anshdutta.com"><img src="https://img.shields.io/badge/Portfolio-anshdutta.com-2F80ED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+<a href="https://www.linkedin.com/in/ansh-dutta/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:anshdutta26@gmail.com"><img src="https://img.shields.io/badge/Email-Let's%20Talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
-<a href="https://anshdutta.com"><img src="https://img.shields.io/badge/PORTFOLIO-anshdutta.com-2F80ED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/ansh-dutta/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:anshdutta26@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Let's%20Talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=anshdutta26-code&style=flat&color=2f80ed&label=profile+views" alt="Profile views">
 
 </div>
 
 ---
 
-## About Me
+## `~/` whoami
 
-I work across **growth marketing, brand and product strategy, performance marketing, GTM, e-commerce, analytics and business-process automation**. My work sits at the intersection of commercial thinking and execution: understanding the business problem, structuring the workflow, measuring what matters and building practical systems that teams can actually use.
+```console
+$ cat operator.txt
+```
 
-I use GitHub not only for software projects, but also to document how I solve operational and marketing problems — from campaign-performance dashboards and order-to-warehouse automation to GPS attendance systems, inventory APIs and scheduled data pipelines.
+Hi, I'm **Ansh Dutta**. I work where **growth, brand strategy, commercial execution, analytics and automation** overlap.
 
-> **My operating principle:** simplify the process, make the data visible, automate the repetitive parts, and keep the final decision grounded in the business.
+I use data to understand what is happening, business context to decide what matters, and practical systems to make execution faster and more measurable.
+
+- Building across **growth marketing, GTM, performance, e-commerce and analytics**
+- Designing **automation and internal tools** for real operational workflows
+- Turning campaign, retail and operations data into **management-level decision systems**
+- Portfolio: **[anshdutta.com](https://anshdutta.com)**
+
+> `strategy → measurement → execution → automation → learning loop`
 
 ---
 
-## What I Work On
+<div align="center">
+
+## `~/` toolbox
+
+<img src="https://skillicons.dev/icons?i=python,github,git,vscode,html,css,js&perline=10" alt="Technical stack">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Google%20Ads-4285F4?style=flat-square&logo=googleads&logoColor=white" alt="Google Ads">
+<img src="https://img.shields.io/badge/Meta%20Ads-0467DF?style=flat-square&logo=meta&logoColor=white" alt="Meta Ads">
+<img src="https://img.shields.io/badge/GA4-E37400?style=flat-square&logo=googleanalytics&logoColor=white" alt="GA4">
+<img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white" alt="Google Sheets">
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=111111" alt="Power BI">
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
+<img src="https://img.shields.io/badge/Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white" alt="Shopify">
+
+</div>
+
+---
+
+<div align="center">
+
+## `~/` capability radar
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="middle">
 
-### Growth & Marketing
-- Growth and performance marketing
-- Brand and product marketing
-- Go-to-market planning
-- Social and campaign analytics
-- Customer acquisition and retention
-- E-commerce and conversion optimisation
-- Marketing dashboards and measurement
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/radar-growth-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/radar-growth-light.svg">
+  <img src="assets/radar-growth-dark.svg" width="420" alt="Growth and commercial capability radar">
+</picture>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="middle">
 
-### Systems & Automation
-- Python workflow automation
-- Streamlit internal tools
-- Google Sheets / Apps Script workflows
-- Flask APIs and system integrations
-- Warehouse and order automation
-- Supabase-based operational applications
-- GitHub Actions and scheduled pipelines
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/radar-systems-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/radar-systems-light.svg">
+  <img src="assets/radar-systems-dark.svg" width="420" alt="Systems and analytics capability radar">
+</picture>
 
 </td>
 </tr>
 </table>
 
----
-
-## Selected Systems & Projects
-
-### Order-to-Warehouse Automation
-**Sales user → Streamlit → Google Sheets → validation → warehouse integration → order tracking**
-
-A retail order-entry workflow designed to reduce repeated manual handoffs between the sales team and downstream order processing.
-
-[View repository →](https://github.com/anshdutta26-code/Order-to-Warehouse-Automation)
-
-### Multi-Warehouse Order Automation API
-**Upstream order → warehouse routing → Emiza authentication → order API → Order ID / status**
-
-A reusable Flask integration layer for warehouse-aware order creation and order-status retrieval.
-
-[View repository →](https://github.com/anshdutta26-code/order-automation)
-
-### Inventory & Sales Order Automation
-**Warehouse context → authentication → report API → inventory / sales-order export → planning workflow**
-
-A multi-warehouse API service for retrieving inventory and sales-order operational data.
-
-[View repository →](https://github.com/anshdutta26-code/INVENTORY-AUTOMATION)
-
-### Campaign Metrics Dashboard
-**Campaign file → Pandas → SKU aggregation → KPI logic → filters → Plotly / Streamlit dashboard**
-
-An interactive campaign analytics application for analysing spend, CTR, conversion, revenue and ROI at SKU level.
-
-[View repository →](https://github.com/anshdutta26-code/campaign-dashboard)
-
-### GPS & Photo Attendance System
-**Login → browser GPS → warehouse permission → 500 m geofence → photo → Supabase**
-
-A controlled employee-attendance workflow combining location validation, camera evidence and centralised attendance records.
-
-[View repository →](https://github.com/anshdutta26-code/attendance-app)
-
-### Automated Amazon Product Monitor
-**Excel queries → GitHub Actions → headless Chrome → parsing → output workbook → automated commit**
-
-A scheduled Python pipeline for refreshing public product-page metrics and preserving the latest results in Excel.
-
-[View repository →](https://github.com/anshdutta26-code/amazon-scraper)
-
----
-
-## Tools I Work With
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,github,git,vscode,html,css,js" alt="Technical tools" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Google%20Ads-4285F4?style=flat-square&logo=googleads&logoColor=white" />
-<img src="https://img.shields.io/badge/Meta%20Ads-0467DF?style=flat-square&logo=meta&logoColor=white" />
-<img src="https://img.shields.io/badge/GA4-E37400?style=flat-square&logo=googleanalytics&logoColor=white" />
-<img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white" />
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=111111" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white" />
-
 </div>
 
 ---
 
-## GitHub Activity
-
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=anshdutta26-code&show_icons=true&hide_border=true&theme=transparent&title_color=2F80ED&icon_color=2F80ED&text_color=8B949E" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshdutta26-code&layout=compact&hide_border=true&theme=transparent&title_color=2F80ED&text_color=8B949E" alt="Top languages" />
+## `~/` build signals
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-stats-light.svg">
+  <img src="assets/profile-stats-dark.svg" width="820" alt="Profile summary">
+</picture>
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=anshdutta26-code&bg_color=0d1117&color=8b949e&line=2F80ED&point=58a6ff&area=true&hide_border=true" width="95%" alt="GitHub contribution activity graph">
+
+<br><br>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=anshdutta26-code&show_icons=true&hide_border=true&theme=transparent&title_color=2F80ED&icon_color=2F80ED&text_color=8B949E" alt="GitHub statistics">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshdutta26-code&layout=compact&hide_border=true&theme=transparent&title_color=2F80ED&text_color=8B949E" alt="Most used languages">
 
 </div>
 
@@ -143,14 +121,59 @@ A scheduled Python pipeline for refreshing public product-page metrics and prese
 
 <div align="center">
 
-### Build. Measure. Improve.
+## `~/` selected work
 
-I am most interested in work where **strategy, customer understanding, analytics and execution** come together.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-grid-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/project-grid-light.svg">
+  <img src="assets/project-grid-dark.svg" width="95%" alt="Selected systems and automation projects">
+</picture>
 
-<a href="https://anshdutta.com"><img src="https://img.shields.io/badge/EXPLORE%20MY%20WORK-anshdutta.com-2F80ED?style=for-the-badge" alt="Explore my work" /></a>
+</div>
 
-<br/><br/>
+| project | process | repository |
+|---|---|---|
+| **Order-to-Warehouse Automation** | `sales → validation → warehouse` | **[open →](https://github.com/anshdutta26-code/Order-to-Warehouse-Automation)** |
+| **Campaign Metrics Dashboard** | `campaign data → SKU KPIs → decision view` | **[open →](https://github.com/anshdutta26-code/campaign-dashboard)** |
+| **GPS & Photo Attendance System** | `login → GPS → geofence → photo → Supabase` | **[open →](https://github.com/anshdutta26-code/attendance-app)** |
+| **Multi-Warehouse Order API** | `request → routing → Atlas → Order ID/status` | **[open →](https://github.com/anshdutta26-code/order-automation)** |
+| **Inventory Automation API** | `warehouse → report API → inventory/sales output` | **[open →](https://github.com/anshdutta26-code/INVENTORY-AUTOMATION)** |
+| **Amazon Product Monitor** | `queries → Actions → browser → parser → workbook` | **[open →](https://github.com/anshdutta26-code/amazon-scraper)** |
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2F80ED,55:0B1F3A,100:07111f&height=95&section=footer" width="100%" alt="Footer" />
+---
+
+## `~/` how I build
+
+```text
+01  Understand the business problem
+          ↓
+02  Map the customer / process / data flow
+          ↓
+03  Define the KPI, validation or operating rule
+          ↓
+04  Build the dashboard, automation or integration
+          ↓
+05  Put the output back into the team's workflow
+          ↓
+06  Measure, learn and improve
+```
+
+My repositories are intentionally documented around **process and architecture**, not only code. The goal is to show how a technical implementation connects to a real commercial or operational problem.
+
+---
+
+<div align="center">
+
+## `~/` connect
+
+**Growth Marketing · Brand Strategy · GTM · Analytics · Automation**
+
+<br>
+
+<a href="https://anshdutta.com"><img src="https://img.shields.io/badge/EXPLORE%20THE%20PORTFOLIO-2F80ED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Explore portfolio"></a>
+
+<br><br>
+
+<sub>`01100010 01110101 01101001 01101100 01100100 00100000 00101101 00111110 00100000 01101101 01100101 01100001 01110011 01110101 01110010 01100101 00100000 00101101 00111110 00100000 01101001 01101101 01110000 01110010 01101111 01110110 01100101`</sub>
 
 </div>
