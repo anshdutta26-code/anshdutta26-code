@@ -148,7 +148,7 @@ I use data to understand what is happening, business context to decide what matt
 ### ₹100 Cr Fundraising Readiness
 Financial modelling, P&L, forecasting and investor-readiness support.
 
-**[View case study ↗](https://docs.google.com/document/d/1OMAsaB850PBwP7sPCvTn8zEuuXMrJyV5/preview)**
+**[View case study ↗](https://docs.google.com/document/d/1ImTpllYfeaIDerrfuB_aKIH35qZzLivw/preview)**
 
 </td>
 <td width="50%" valign="top">
@@ -156,7 +156,7 @@ Financial modelling, P&L, forecasting and investor-readiness support.
 ### Ontario Science Centre Rebranding
 Brand positioning and integrated marketing communications strategy.
 
-**[View case study ↗](https://docs.google.com/document/d/15R4ENCu6ASdX9qjv-9WEgIOMfO46WNNj/preview)**
+**[View case study ↗](https://docs.google.com/document/d/1RfrroVufRu4mHT2rL7rdepVPWBKNaAC-/preview)**
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ Brand positioning and integrated marketing communications strategy.
 ### Sales Allowance & TADA Automation
 Policy-led travel-expense and allowance workflow automation.
 
-**[View case study ↗](https://docs.google.com/document/d/12OL1rkm4-9iU1H-sKG5HrmcDmmkrUQ8r/preview)**
+**[View case study ↗](https://docs.google.com/document/d/14qf-LWHpk8Z9Ud135mLBxTiGpITgUGyM/preview)**
 
 </td>
 <td width="50%" valign="top">
@@ -174,7 +174,7 @@ Policy-led travel-expense and allowance workflow automation.
 ### Infinity Flex Marketing Strategy
 STP, marketing mix, competitor analysis, digital strategy and KPIs.
 
-**[View case study ↗](https://docs.google.com/document/d/1bi4N9sX5fDvvalCqu9h_S0ZFWbegWZmw/preview)**
+**[View case study ↗](https://docs.google.com/document/d/1AXCVJBOjG5A_nee2vzxTRSMqfqNELoJo/preview)**
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ STP, marketing mix, competitor analysis, digital strategy and KPIs.
 ### Xbox vs PlayStation Brand Strategy
 Competitive positioning, audience, digital presence and growth analysis.
 
-**[View case study ↗](https://docs.google.com/document/d/1_0qivU7jjC6TWz6ab5xJh3GzBojKbumR/preview)**
+**[View case study ↗](https://docs.google.com/document/d/1c2naxvmExJ1sFhZnhie4TzOZyuJqAEbG/preview)**
 
 </td>
 <td width="50%" valign="top">
