@@ -2,7 +2,7 @@
 <tr>
 <td width="38%" align="center" valign="middle">
 
-<img src="assets/portrait-render.svg" width="330" alt="Ansh Dutta animated profile portrait">
+<img src="assets/portrait-dotmatrix.svg" width="330" alt="Ansh Dutta animated dot-matrix profile portrait">
 
 </td>
 <td width="62%" valign="middle">
