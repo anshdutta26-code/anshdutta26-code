@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 720" width="620" height="720" role="img" aria-label="Ansh Dutta pixel-render portrait">
+  <style>
+    @keyframes boot{0%{opacity:0;transform:translateY(18px);filter:blur(6px)}45%{opacity:.75}100%{opacity:1;transform:translateY(0);filter:blur(0)}}
+    @keyframes scan{0%{transform:translateY(-30px);opacity:0}8%{opacity:.95}90%{opacity:.95}100%{transform:translateY(590px);opacity:0}}
+    @keyframes flicker{0%,94%,100%{opacity:1}95%{opacity:.58}97%{opacity:.9}}
+    @keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}
+    @keyframes bit1{0%,8%{opacity:0}16%,100%{opacity:1}}
+    @keyframes bit2{0%,18%{opacity:0}28%,100%{opacity:1}}
+    @keyframes bit3{0%,30%{opacity:0}42%,100%{opacity:1}}
+    .portrait{animation:boot 1.25s steps(12,end) both,flicker 4.8s linear infinite 1.25s}
+    .scanner{animation:scan 2.35s ease-in-out 1}
+    .cursor{animation:blink .82s step-end infinite}
+    .b1{animation:bit1 1.4s steps(1,end) both}.b2{animation:bit2 1.4s steps(1,end) both}.b3{animation:bit3 1.4s steps(1,end) both}
+  </style>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2F80ED"/><stop offset=".5" stop-color="#42D7FF"/><stop offset="1" stop-color="#7857FF"/></linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#020817" stop-opacity="0"/><stop offset="1" stop-color="#020817" stop-opacity=".82"/></linearGradient>
+    <pattern id="pixelgrid" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M14 0H0V14" fill="none" stroke="#020817" stroke-width="2.4" stroke-opacity=".64"/></pattern>
+    <pattern id="microgrid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#42D7FF" stroke-width=".7" stroke-opacity=".09"/></pattern>
+    <filter id="digital" x="-8%" y="-8%" width="116%" height="116%"><feColorMatrix type="matrix" values="1.08 0 0 0 0  0 1.1 0 0 0.015  0 0 1.18 0 0.035  0 0 0 1 0"/><feComponentTransfer><feFuncR type="linear" slope="1.08" intercept="-.03"/><feFuncG type="linear" slope="1.08" intercept="-.02"/><feFuncB type="linear" slope="1.15" intercept="0"/></feComponentTransfer></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="portraitClip"><rect x="28" y="28" width="564" height="564" rx="12"/></clipPath>
+  </defs>
+  <rect x="5" y="5" width="610" height="710" rx="24" fill="#030914" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="18" y="18" width="584" height="584" rx="16" fill="#07111f"/>
+  <g clip-path="url(#portraitClip)">
+    <image class="portrait" x="28" y="28" width="564" height="564" preserveAspectRatio="xMidYMid slice" filter="url(#digital)" style="image-rendering:pixelated" href="https://raw.githubusercontent.com/anshdutta26-code/anshdutta26-code.github.io/website-build/assets/images/optimized/home-hero-1122.webp"/>
+    <rect x="28" y="28" width="564" height="564" fill="url(#shade)"/>
+    <rect x="28" y="28" width="564" height="564" fill="url(#pixelgrid)"/>
+    <rect x="28" y="28" width="564" height="564" fill="url(#microgrid)"/>
+    <g class="scanner"><rect x="28" y="0" width="564" height="4" fill="#65DDFF" opacity=".95" filter="url(#glow)"/></g>
+    <g fill="#42D7FF" opacity=".78">
+      <rect class="b1" x="40" y="72" width="10" height="10"/><rect class="b2" x="54" y="72" width="10" height="10"/><rect class="b3" x="68" y="72" width="10" height="10"/>
+      <rect class="b2" x="520" y="518" width="10" height="10"/><rect class="b3" x="534" y="518" width="10" height="10"/><rect class="b1" x="548" y="518" width="10" height="10"/>
+    </g>
+  </g>
+  <path d="M28 54V28H54M566 28H592V54M28 566V592H54M566 592H592V566" fill="none" stroke="#65DDFF" stroke-width="3" opacity=".9"/>
+  <text x="32" y="635" fill="#D9ECFF" font-size="17" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">&gt; ANSH_DUTTA.render()</text>
+  <text x="32" y="663" fill="#68B8FF" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">growth · brand · gtm · analytics · automation</text>
+  <text x="32" y="690" fill="#42D7FF" font-size="15" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">&gt; profile.status = ONLINE <tspan class="cursor">_</tspan></text>
+</svg>
