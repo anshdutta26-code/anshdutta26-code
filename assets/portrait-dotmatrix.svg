@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img" aria-label="Ansh Dutta animated dot-matrix portrait">
+<style>
+@keyframes rv{0%{clip-path:inset(0 0 100% 0);opacity:.08}100%{clip-path:inset(0 0 0 0);opacity:1}}
+@keyframes softin{0%{opacity:.55}100%{opacity:1}}
+.portrait{animation:rv 2.55s steps(100,end) both,softin .45s ease-out 2.55s both}
+</style>
+<defs>
+  <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+    <circle cx="5" cy="5" r="4.45" fill="#fff"/>
+  </pattern>
+  <mask id="dotmask" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="1000">
+    <rect width="1000" height="1000" fill="url(#dots)"/>
+  </mask>
+</defs>
+<g class="portrait" mask="url(#dotmask)">
+  <image x="0" y="0" width="1000" height="1000" preserveAspectRatio="xMidYMid slice" href="https://raw.githubusercontent.com/anshdutta26-code/anshdutta26-code.github.io/website-build/assets/images/optimized/home-hero-1122.webp"/>
+</g>
+</svg>
