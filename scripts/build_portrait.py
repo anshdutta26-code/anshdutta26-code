@@ -57,7 +57,33 @@ def isolate_subject(img: Image.Image) -> Image.Image:
     return rgba
 
 
-def generate_svg(src: Path, out: Path, cols: int = 100) -> None:
+def theme_adjust(r: int, g: int, b: int, theme: str) -> tuple[int, int, int]:
+    """Preserve the photo colours while keeping the dots legible on GitHub's active theme."""
+    if theme == "dark":
+        # Keep the existing dark-mode look: gently lift shadows so hair/jacket detail survives.
+        lift = 0.10
+        return (
+            int(r + (255 - r) * lift),
+            int(g + (255 - g) * lift),
+            int(b + (255 - b) * lift),
+        )
+
+    # Light mode: bright skin/highlight dots can disappear against GitHub white.
+    # Keep hue and proportions intact, but cap only the brightest pixels by scaling
+    # all RGB channels together. Dark and mid-tone pixels are left unchanged.
+    brightness = (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255.0
+    max_brightness = 0.68
+    if brightness > max_brightness:
+        scale = max_brightness / brightness
+        return (
+            max(0, min(255, round(r * scale))),
+            max(0, min(255, round(g * scale))),
+            max(0, min(255, round(b * scale))),
+        )
+    return r, g, b
+
+
+def generate_svg(src: Path, out: Path, cols: int = 100, theme: str = "dark") -> None:
     img = ImageOps.exif_transpose(Image.open(src)).convert("RGB")
     img = square_crop(img)
     img = isolate_subject(img)
@@ -106,11 +132,7 @@ def generate_svg(src: Path, out: Path, cols: int = 100) -> None:
             if radius < 0.35:
                 continue
             r, g, b = rp[x, y]
-            # Slightly lift very dark colours so hair/jacket details survive GitHub dark mode.
-            lift = 0.10
-            r = int(r + (255 - r) * lift)
-            g = int(g + (255 - g) * lift)
-            b = int(b + (255 - b) * lift)
+            r, g, b = theme_adjust(r, g, b, theme)
             fill = f"#{r:02x}{g:02x}{b:02x}"
             cx = pad + x * cell + cell / 2
             cy = pad + y * cell + cell / 2
@@ -134,5 +156,6 @@ if __name__ == "__main__":
     parser.add_argument("source", type=Path)
     parser.add_argument("output", type=Path)
     parser.add_argument("--cols", type=int, default=100)
+    parser.add_argument("--theme", choices=("dark", "light"), default="dark")
     args = parser.parse_args()
-    generate_svg(args.source, args.output, args.cols)
+    generate_svg(args.source, args.output, args.cols, args.theme)
