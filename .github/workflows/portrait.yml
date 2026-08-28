@@ -35,22 +35,32 @@ jobs:
       - name: Install image dependencies
         run: python -m pip install --disable-pip-version-check Pillow opencv-python-headless
 
-      - name: Generate animated dot-matrix portrait
+      - name: Generate dark and light animated dot-matrix portraits
         run: |
           python profile/scripts/build_portrait.py \
             website/assets/images/about-portrait.webp \
-            profile/assets/portrait.svg \
-            --cols 100
+            profile/assets/portrait-dark.svg \
+            --cols 100 \
+            --theme dark
 
-      - name: Commit generated portrait
+          python profile/scripts/build_portrait.py \
+            website/assets/images/about-portrait.webp \
+            profile/assets/portrait-light.svg \
+            --cols 100 \
+            --theme light
+
+          # Keep the original filename as a stable dark-mode fallback for any old links.
+          cp profile/assets/portrait-dark.svg profile/assets/portrait.svg
+
+      - name: Commit generated portraits
         working-directory: profile
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/portrait.svg
+          git add assets/portrait.svg assets/portrait-dark.svg assets/portrait-light.svg
           if git diff --cached --quiet; then
-            echo "Portrait is already up to date."
+            echo "Portrait variants are already up to date."
           else
-            git commit -m "Regenerate animated dot-matrix portrait"
+            git commit -m "Regenerate light and dark dot-matrix portraits"
             git push
           fi
